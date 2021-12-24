@@ -1,4 +1,9 @@
-
+console.log("Чтобы начать напиши комманду - calculator('');");
+console.log("а внутри скобок и кавычек, запиши, что нужно посчитать.");
+console.log('');
+console.log("Например: calculator('8 - 3');");
+console.log("Или: calculator('V + IV');");
+console.log("ПИШИ ПОД ЭТОЙ СТРОКОЙ");
 //calculator-main function
 function calculator(str) {
 // внутри функции калькулятор, я создала несколько малкньких функций 
@@ -170,8 +175,3 @@ function conwertToRoman(stringArabicNum) {
   }
   throw 'Калькулятор умеет работать только с целыми числами'
 }
-
-
-// проверки 
-console.log(calculator('8 - 3')); // 5
-console.log(calculator('V + IX')); // XIV
