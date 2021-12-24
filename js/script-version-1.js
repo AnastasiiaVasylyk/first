@@ -1,11 +1,8 @@
 
-
-//после первого теста убрала строку примера
-//основная функция calculator-main function
+//calculator-main function
 function calculator(str) {
 // внутри функции калькулятор, я создала несколько малкньких функций 
 // и поочередно их запустила в самом низу
-
 
 // ------------to array--------function  из строки получили массив
 function convertToArr(string) {
@@ -59,7 +56,7 @@ function calc(a, b, c) {
     return res
 }
 
-//конвертируем в римские------------convertor to roman------------main function 
+//конвертируем в римские------------convertor to roman function 
 // обьект для поиска совпадений 
 let numbers = {
     'I': 1,
@@ -175,36 +172,6 @@ function conwertToRoman(stringArabicNum) {
 }
 
 
-
+// проверки 
 console.log(calculator('8 - 3')); // 5
-console.log(calculator('4 + 7')); // 11
-console.log(calculator('6 * 2')); // 12
-console.log(calculator('2 / 4')); // 0
-console.log(calculator('5 / 2')); // 2
-console.log(calculator('VIII - III')); // V
 console.log(calculator('V + IX')); // XIV
-console.log(calculator('X * X')); // C
-console.log(calculator('II / IV')); // C
-console.log(calculator('3 + -1'));
-console.log(calculator('3.5 + 2'));
-console.log(calculator('I + 1'));
-console.log(calculator('1 + I'));
-console.log(calculator('I'));
-console.log(calculator('1 + 1 + 1'));
-console.log(calculator('I - II'));
-console.log(calculator('1 - 2'));
-console.log(calculator('1 ++ 2'));
-console.log(calculator('I ++ I'));
-console.log(calculator('1 -- 2'));
-console.log(calculator('I -- I'));
-console.log(calculator('1 // 2'));
-console.log(calculator('I // I'));
-console.log(calculator('1 ** 2'));
-console.log(calculator('I ** I'));
-console.log("");
-console.log(calculator('VI / II'));
-console.log(calculator('X / I'));
-console.log(calculator('X / I'));
-console.log(calculator('6 / 0'));
-
-
